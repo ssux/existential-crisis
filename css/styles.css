@@ -104,7 +104,6 @@ button {
     border: none;
     float: right;
     opacity: .5;
-
 }
 
 button:hover {
@@ -112,6 +111,17 @@ button:hover {
     cursor: pointer;
 }
 
+.userReaction {
+    background-color: #310102;
+    width: 200px;
+    padding: 0px 30px 0px 30px;
+    margin-top: 20px;
+    float: right;
+    color: white;
+    font-size: 28px;
+    font-family: helvetica;
+    text-align: right;
+}
 
 
 
