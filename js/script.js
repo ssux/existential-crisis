@@ -1,5 +1,5 @@
 
-$("#option3").click (function () {
+$("#option3").click(function () {
     $(".text").hide();
 })
 
