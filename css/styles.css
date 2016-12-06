@@ -2,8 +2,7 @@ body, html {
     overflow: hidden;
 }    
 .background {
-    background-image: url(../images/tree.jpg);
-    background-size: cover;
+   background-color: white;
 }
 
 .header {
@@ -11,9 +10,19 @@ body, html {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 70px;
+    height: 60px;
     background-color: black;
     z-index: 999;
+    padding-top: 15px;
+    padding-left: 20px;
+
+}
+
+.header a {
+    color: white;
+    font-family: georgia;
+    font-size: 40px; 
+    text-decoration: none;
 }
 
 @font-face {
@@ -27,55 +36,55 @@ body, html {
 }
 
 .main {
-    width: 60%;
+    width: 90%;
     height: 100%;
     align-items: center;
     background-color: white;
     box-shadow: -0px -0px 8px gray;
-    margin-left: 20%;
     overflow-y: scroll;
+    margin-left: 5%;
 }
 
 .text {
     font-family: georgia;
-    padding: 80px 40px 90px 40px; 
+    padding: 80px 40px 80px 40px; 
     height: 100%;
     margin-bottom: 90px;
 }
 
-.answer {
+/*.answer {
     background-color: #e6e7e8;
     color: black;
     float: left;
     width: 80%;
     padding: 0px 30px 0px 30px;
-    display: block;
     margin-top: 20px;
-}
+}*/
 
 h1 {
+    font-family: georgia;
     font-size: 40px;
     font-weight: 500;
 }
 
 h3 {
-    font-size: 20px;
+    font-family: georgia;
+    font-size: 24px;
     font-weight: 400;
-    line-height: 110%;
+    line-height: 30px;
 }
 
 h4 {
     font-family: caslon;
-    font-size: 20px;
-    line-height: 110%;
+    font-size: 24px;
+    line-height: 30px;
     font-weight: 400;
     color: #310102;
-
 }
 
 h5{
     font-family: caslon;
-    font-size: 20px;
+    font-size: 24px;
     text-align: right;
     line-height: 10%;
     font-weight: 400;
@@ -83,7 +92,7 @@ h5{
 
 }
 
-.options {
+/*.options {
     line-height: 40px;
     float: right;
     width: 80%;
@@ -92,26 +101,36 @@ h5{
     padding: 20px 30px 20px 30px;
     display: block;
     margin-top: 20px;
-}
+}*/
 
 button {
     color: white;
     font-size: 28px;
     font-family: helvetica;
     text-align: right;
-    line-height: 40px;
-    background-color: transparent;
+    background-color: blue;
+    width: 60%;
     border: none;
+    padding: 20px 30px 20px 30px;
     float: right;
     opacity: .5;
+    -webkit-transition: all 1s; /* Safari */
+    transition: all 1s;
 }
 
 button:hover {
     opacity: 1;
     cursor: pointer;
+    background-color: red;
 }
 
-.userReaction {
+@-webkit-keyframes pulse {
+  from { color: white; -webkit-box-shadow: 0 0 9px #333; }
+  50% { color: #fffcdf; -webkit-box-shadow: 0 0 18px yellow; }
+  to { color: white; -webkit-box-shadow: 0 0 9px #333; }
+}
+
+/*.userReaction {
     background-color: #310102;
     width: 200px;
     padding: 0px 30px 0px 30px;
@@ -121,7 +140,346 @@ button:hover {
     font-size: 28px;
     font-family: helvetica;
     text-align: right;
+}*/
+
+#o1{
+    margin-top: 20px;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
 }
 
+#o2 {
+    margin-top: 20px;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
 
+#o1a1 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
 
+#o1a2 {
+    display:none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o1-2 {
+    display: none;
+}
+
+#o1-2a1 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o1-2a2 {
+   display: none; 
+   background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o1-2a3 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o1-3 {
+    display: none;
+    background-color: #310102;
+    width: 40%;
+    padding: 0px 30px 0px 30px;
+    margin-top: 20px;
+    float: right;
+    color: white;
+    font-size: 28px;
+    font-family: helvetica;
+    text-align: right;
+}
+
+#o1-4 {
+    display: none;
+}
+
+#o1-5 {
+    display: none;
+}
+
+#o1-4a1 {
+    font-size: 50px;
+    font-family: caslon;
+    color: #310102;
+    display: none;
+    
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o1-4a2 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o1-5a1{
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o1-6 {
+    display: none;
+}
+
+#o1-6a1 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o1-6a2 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o1-7 {
+    display: none;
+}
+
+#o1-7a1 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o1-7a2 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o1-7a3 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o1-7a4 {
+   display: none; 
+   background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o2a1 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o2-1 {
+    display: none;
+}
+
+#o2-2 {
+    display: none;
+}
+
+#o2-3 {
+    display: none;
+}
+
+#o2-1a1 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o2-1a2 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o2-2a1 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o2-2a2 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o2-3a1 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o2-3a2 {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
+
+#o2-4a1 {
+   /*display: none;*/
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px; 
+}
+
+#o2-4a2 {
+   /*display: none;*/
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px; 
+}
+
+#o2-5a1 {
+   /*display: none;*/
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px; 
+}
+
+#o2-5a2 {
+   /*display: none;*/
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px; 
+}
+
+#o2-6a1 {
+   /*display: none;*/
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;  
+}
+
+#o2-6a2 {
+   /*display: none;*/
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;  
+}
+
+#o2-6a3 {
+   /*display: none;*/
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;  
+}
+
+#o2-7a1 {
+   /*display: none;*/
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;  
+}
+
+#o2-7a2 {
+   /*display: none;*/
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;  
+}
+
+#fin {
+    display: none;
+    background-color: #e6e7e8;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+}
