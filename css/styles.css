@@ -79,7 +79,7 @@ h4 {
     font-size: 24px;
     line-height: 30px;
     font-weight: 400;
-    color: #310102;
+    color: #144994;
 }
 
 h5{
@@ -88,7 +88,7 @@ h5{
     text-align: right;
     line-height: 10%;
     font-weight: 400;
-    color: #310102;
+    color: #144994;
 
 }
 
@@ -119,15 +119,17 @@ button {
 }
 
 button:hover {
+    -webkit-transition: all .25s;
+    transition: all .5s;
     opacity: 1;
     cursor: pointer;
-    background-color: red;
+    background-color: purple!important;
 }
 
 @-webkit-keyframes pulse {
-  from { color: white; -webkit-box-shadow: 0 0 9px #333; }
-  50% { color: #fffcdf; -webkit-box-shadow: 0 0 18px yellow; }
-  to { color: white; -webkit-box-shadow: 0 0 9px #333; }
+  from { color: white; -webkit-box-shadow: 0 0 9px #333; opacity: .5;}
+  50% { color: #fffcdf; -webkit-box-shadow: 0 0 18px yellow; opacity: .55; }
+  to { color: white; -webkit-box-shadow: 0 0 9px #333; opacity: .5; }
 }
 
 /*.userReaction {
@@ -158,7 +160,7 @@ button:hover {
 
 #o1a1 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #e4eaf3;
     color: black;
     float: left;
     width: 80%;
@@ -167,7 +169,7 @@ button:hover {
 
 #o1a2 {
     display:none;
-    background-color: #e6e7e8;
+    background-color: #e4eaf3;
     color: black;
     float: left;
     width: 80%;
@@ -176,11 +178,14 @@ button:hover {
 
 #o1-2 {
     display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 #o1-2a1 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #e4eaf3;
     color: black;
     float: left;
     width: 80%;
@@ -189,7 +194,7 @@ button:hover {
 
 #o1-2a2 {
    display: none; 
-   background-color: #e6e7e8;
+   background-color: #e4eaf3;
     color: black;
     float: left;
     width: 80%;
@@ -198,7 +203,7 @@ button:hover {
 
 #o1-2a3 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #e4eaf3;
     color: black;
     float: left;
     width: 80%;
@@ -207,7 +212,7 @@ button:hover {
 
 #o1-3 {
     display: none;
-    background-color: #310102;
+    background-color: #a02528;
     width: 40%;
     padding: 0px 30px 0px 30px;
     margin-top: 20px;
@@ -220,10 +225,16 @@ button:hover {
 
 #o1-4 {
     display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 #o1-5 {
     display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 #o1-4a1 {
@@ -232,7 +243,7 @@ button:hover {
     color: #310102;
     display: none;
     
-    background-color: #e6e7e8;
+    background-color: #e4eaf3;
     color: black;
     float: left;
     width: 80%;
@@ -241,7 +252,7 @@ button:hover {
 
 #o1-4a2 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #e4eaf3;
     color: black;
     float: left;
     width: 80%;
@@ -250,7 +261,7 @@ button:hover {
 
 #o1-5a1{
     display: none;
-    background-color: #e6e7e8;
+    background-color: #e4eaf3;
     color: black;
     float: left;
     width: 80%;
@@ -259,11 +270,14 @@ button:hover {
 
 #o1-6 {
     display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 #o1-6a1 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #e4eaf3;
     color: black;
     float: left;
     width: 80%;
@@ -272,7 +286,7 @@ button:hover {
 
 #o1-6a2 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #e4eaf3;
     color: black;
     float: left;
     width: 80%;
@@ -281,11 +295,14 @@ button:hover {
 
 #o1-7 {
     display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 #o1-7a1 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #e4eaf3;
     color: black;
     float: left;
     width: 80%;
@@ -294,7 +311,7 @@ button:hover {
 
 #o1-7a2 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #e4eaf3;
     color: black;
     float: left;
     width: 80%;
@@ -303,7 +320,7 @@ button:hover {
 
 #o1-7a3 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #e4eaf3;
     color: black;
     float: left;
     width: 80%;
@@ -312,7 +329,7 @@ button:hover {
 
 #o1-7a4 {
    display: none; 
-   background-color: #e6e7e8;
+   background-color: #e4eaf3;
     color: black;
     float: left;
     width: 80%;
@@ -321,7 +338,7 @@ button:hover {
 
 #o2a1 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
@@ -330,19 +347,28 @@ button:hover {
 
 #o2-1 {
     display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 #o2-2 {
     display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 #o2-3 {
     display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 #o2-1a1 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
@@ -351,7 +377,7 @@ button:hover {
 
 #o2-1a2 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
@@ -360,7 +386,7 @@ button:hover {
 
 #o2-2a1 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
@@ -369,7 +395,7 @@ button:hover {
 
 #o2-2a2 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
@@ -378,7 +404,7 @@ button:hover {
 
 #o2-3a1 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
@@ -387,16 +413,23 @@ button:hover {
 
 #o2-3a2 {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
     padding: 0px 30px 0px 30px;
 }
 
+#o2-4 {
+    display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
 #o2-4a1 {
-   /*display: none;*/
-    background-color: #e6e7e8;
+    display: none;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
@@ -404,17 +437,24 @@ button:hover {
 }
 
 #o2-4a2 {
-   /*display: none;*/
-    background-color: #e6e7e8;
+   display: none;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
     padding: 0px 30px 0px 30px; 
 }
 
+#o2-5 {
+    display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
 #o2-5a1 {
-   /*display: none;*/
-    background-color: #e6e7e8;
+    display: none;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
@@ -422,17 +462,24 @@ button:hover {
 }
 
 #o2-5a2 {
-   /*display: none;*/
-    background-color: #e6e7e8;
+    display: none;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
     padding: 0px 30px 0px 30px; 
 }
 
+#o2-6{
+    display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
 #o2-6a1 {
-   /*display: none;*/
-    background-color: #e6e7e8;
+    display: none;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
@@ -440,8 +487,8 @@ button:hover {
 }
 
 #o2-6a2 {
-   /*display: none;*/
-    background-color: #e6e7e8;
+    display: none;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
@@ -449,17 +496,24 @@ button:hover {
 }
 
 #o2-6a3 {
-   /*display: none;*/
-    background-color: #e6e7e8;
+    display: none;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
     padding: 0px 30px 0px 30px;  
 }
 
+#o2-7 {
+    display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
 #o2-7a1 {
-   /*display: none;*/
-    background-color: #e6e7e8;
+    display: none;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
@@ -467,17 +521,151 @@ button:hover {
 }
 
 #o2-7a2 {
-   /*display: none;*/
-    background-color: #e6e7e8;
+    display: none;
+    background-color: #ffeeb7;
     color: black;
     float: left;
     width: 80%;
     padding: 0px 30px 0px 30px;  
 }
 
+#o2-8 {
+    display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+#o2-8a1 {
+    display: none;
+    background-color: #ffeeb7;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;  
+}
+
+#o2-8a2 {
+    display: none;
+    background-color: #ffeeb7;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;  
+}
+
+#o2-9 {
+    display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+#o2-9a1 {
+    display: none;
+    background-color: #ffeeb7;
+    color: black;
+    font-family: caslon;
+    color: #788c03;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;  
+}
+
+#o2-9a2 {
+    display: none;
+    background-color: #ffeeb7;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;  
+}
+
+#o2-10 {
+    display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+#o2-10a1 {
+    display: none;
+    background-color: #ffeeb7;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;  
+}
+
+#o2-10a2 {
+    display: none;
+    background-color: #ffeeb7;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;  
+}
+
+#o2-10a3 {
+    display: none;
+    background-color: #ffeeb7;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;  
+}
+
+#o2-11 {
+    display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+#o2-11a1{
+    display: none;
+    background-color: #ffeeb7;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;  
+}
+
+#o2-11a2{
+    display: none;
+    background-color: #ffeeb7;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;  
+}
+
+#o2-11a3 {
+    display: none;
+    background-color: #ffeeb7;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 0px 30px 0px 30px;  
+}
+
+#o2-12 {
+    display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+#o2-13 {
+    display: none;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
 #fin {
     display: none;
-    background-color: #e6e7e8;
+    background-color: #fffcdf;
     color: black;
     float: left;
     width: 80%;
